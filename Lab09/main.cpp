@@ -12,8 +12,8 @@ int main()
         price = 1.2 * distance;
     }
     else {
-        price = 1.2 * 200 + 0.75 * (distance - 200);
+        price = 1.2 * 200 + 0.75 * (distance - 200) * 1.2;
     }
 
-    cout << price << endl;
+    printf("%.f\n", price);
 }
